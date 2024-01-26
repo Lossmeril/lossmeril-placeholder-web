@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen bg-black flex justify-center items-center">
+    <main className="w-screen h-screen bg-black flex justify-center items-center p-12 lg:p-0">
       <div className="w-[500px] lg:w-[800px]">
         <h1 className="text-7xl lg:text-8xl font-bold gilroy mb-12">
           Kovářova <span className="text-green">Michal</span>
